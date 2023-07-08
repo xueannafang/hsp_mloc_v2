@@ -6,7 +6,7 @@ import pandas as pd
 from datetime import datetime
 from datetime import date
 
-#user editable
+#please edit if necessary
 
 db_name, usr_input_data = 'db.csv', 'input_mloc_data.csv'
 
@@ -16,14 +16,14 @@ tol = 0.00001
 
 op_name_prefix = 'test'
 
-today = date.today()
-now = datetime.now()
-crt_time = today.strftime("%Y%m%d") + now.strftime("%H%M%S")
-
-db, usr_input = MLoc_io.read_input_csv(db_name, usr_input_data)
 
 
 # Main program below
+db, usr_input = MLoc_io.read_input_csv(db_name, usr_input_data)
+
+today = date.today()
+now = datetime.now()
+crt_time = today.strftime("%Y%m%d") + now.strftime("%H%M%S")
 
 usr_data_with_hsp = MLoc_fetch_info.fetch_hsp(db, usr_input)
 
