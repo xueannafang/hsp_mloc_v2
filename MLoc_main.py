@@ -1,10 +1,38 @@
-import numpy as np
 import matplotlib.pyplot as plt
 import MLoc_io
 import MLoc_fetch_info
+import MLoc_calc
+import pandas as pd
+from datetime import datetime
+from datetime import date
+
+#user editable
 
 db_name, usr_input_data = 'db.csv', 'input_mloc_data.csv'
 
+alpha = 0.01
+n_max = 10000
+tol = 0.00001
+
+op_name_prefix = 'test'
+
+today = date.today()
+now = datetime.now()
+crt_time = today.strftime("%Y%m%d") + now.strftime("%H%M%S")
+
 db, usr_input = MLoc_io.read_input_csv(db_name, usr_input_data)
 
-MLoc_fetch_info.fetch_hsp(db, usr_input)
+
+# Main program below
+
+usr_data_with_hsp = MLoc_fetch_info.fetch_hsp(db, usr_input)
+
+all_calc_vec = MLoc_fetch_info.fetch_calc_vec(usr_data_with_hsp)
+
+calc_rslt_dict = MLoc_calc.calc_m(all_calc_vec, alpha, n_max, tol)
+
+result_list = MLoc_fetch_info.calc_result_combine(calc_rslt_dict, usr_data_with_hsp)
+
+asc_result_df = MLoc_io.list2df(result_list)
+
+MLoc_io.save_result_csv(asc_result_df, op_name_prefix, crt_time)
