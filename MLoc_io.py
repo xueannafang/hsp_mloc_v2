@@ -40,3 +40,19 @@ def save_result_csv(asc_result_df, pref, suf):
 
     print(crt_cwd)
     print(path_name)
+
+
+def plot_hsp(asc_result_df, pref, suf):
+    path_name = pref + '_' + suf + '.png'
+
+
+
+
+
+    crt_cwd = os.getcwd()
+    print('png file saved here:')
+
+    print(crt_cwd)
+    print(path_name)
+
+
