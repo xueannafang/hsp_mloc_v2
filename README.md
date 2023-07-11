@@ -35,7 +35,7 @@ And the input file with experimental solubility data: [input_mloc_data.csv](http
 The calculation is mainly based on the "CAS" and "Indicator" column.
 
 - Please make sure the CAS No. is correctly filled. 
-- The "Indicator" column corresponds to the solubility indicator, which could be spectroscopic absorbance feature. Must be float.
+- The "Indicator" column corresponds to the solubility indicator, which could be spectroscopic absorbance feature. Must be a float.
 - The "Solvent" column will appear on the output figure and results spreadsheet. 
 
 To run:
