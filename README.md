@@ -31,7 +31,7 @@ To run:
 
 ### Output
 
-A csv file with the name user set and current time will be stored under current working directory.
+A csv file and png file will be stored under a new folder named with the test time (a 14-digit folder).
 
 The path will be present in the terminal.
 
@@ -74,6 +74,15 @@ C:\Users\...\hsp_mloc_v2
 
 ```
 
+The data can be copied to a separate plotting software to customise the details.
+
+A scheme of 3D Hansen space with all the tested data will also be saved.
+
+<p>
+
+ <img src=https://github.com/xueannafang/hsp_mloc_v2/blob/main/test_20230708170620.png width=600>
+
+</p>
 
 
 
