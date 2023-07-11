@@ -80,7 +80,7 @@ A scheme of 3D Hansen space with all the tested data will also be saved.
 
 <p>
 
- <img src=https://github.com/xueannafang/hsp_mloc_v2/blob/main/test_20230708170620.png width=600>
+ <img src=https://github.com/xueannafang/hsp_mloc_v2/blob/main/test_20230708170620.png width=800>
 
 </p>
 
