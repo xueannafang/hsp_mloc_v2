@@ -14,6 +14,10 @@ The background of this HSP project can be found [here](https://github.com/xueann
 
 ## Run MLoc(v2)
 
+### Packages
+
+matplotlib.pyplot, pandas, datetime, seaborn, numpy
+
 ### Input
 
 User can edit calculation parameters (same as the last version) in the first block of "MLoc_main.py"
