@@ -2,15 +2,13 @@
  MLoc_2.0
 
 
-## Key update (2023/07/08)
+## Key update (2023/07/11)
  
  - Detached from SolvPred.
  - Input database updated.
  - Input spreadsheet updated - no longer require manual check of No_db column.
+ - Improved 3D plot.
 
-## TD:
-
-- Plot
 
 ## Run MLoc(v2)
 
@@ -65,9 +63,14 @@ Please find the result spreadsheet here:
 8     56-81-5                Glycerol    0.23000   8.0  17.400000  12.100000  29.300000  36.161582  0.150229   0.575853 -18.780535 -12.091955  18.791763
 9   7732-18-5                   Water    0.00023   9.0  15.500000  16.000000  42.300000  47.807322  2.050229  -3.324147 -31.780535 -23.737695  32.215929
 The best solvent is: Dimethylformamide. CAS: 68-12-2
+Creat folder:  20230711132253
 csv file saved here:
 C:\Users\...\hsp_mloc_v2
-test_20230708170833.csv
+20230711132253/test_20230711132253.csv
+20230711132253  Folder exists.
+3d png figure saved here:
+C:\Users\...\hsp_mloc_v2
+20230711132253/test_20230711132253.png
 
 ```
 
