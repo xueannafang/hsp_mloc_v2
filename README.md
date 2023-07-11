@@ -1,6 +1,8 @@
 # hsp_mloc_v2
  MLoc_2.0
 
+The background of this HSP project can be found [here](https://github.com/xueannafang/HSP_toolkit_docs).
+
 
 ## Key update (2023/07/11)
  
