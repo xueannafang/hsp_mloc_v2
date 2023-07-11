@@ -99,6 +99,9 @@ A scheme of 3D Hansen space with all the tested data will also be saved.
 </p>
 
 
+- [Example csv result](https://github.com/xueannafang/hsp_mloc_v2/blob/main/20230711132253/test_20230711132253.csv)
+- [Example png figure](https://github.com/xueannafang/hsp_mloc_v2/blob/main/20230711132253/test_20230711132253.png)
+
 
 -------------------------------
 This project is licensed under GPL-3.0
