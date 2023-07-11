@@ -30,6 +30,14 @@ tol = 0.00001 # tolerance of convergence
 op_name_prefix = 'test' # prefix of output result file
 ```
 
+And the input file with experimental solubility data: [input_mloc_data.csv](https://github.com/xueannafang/hsp_mloc_v2/blob/main/input_mloc_data.csv).
+
+The calculation is mainly based on the "CAS" and "Indicator" column.
+
+- Please make sure the CAS No. is correctly filled. 
+- The "Indicator" column corresponds to the solubility indicator, which could be spectroscopic absorbance feature. Must be float.
+- The "Solvent" column will appear on the output figure and results spreadsheet. 
+
 To run:
  ```
  python MLoc_main.py
