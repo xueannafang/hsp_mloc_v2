@@ -5,7 +5,7 @@
 ## Key update (2023/07/08)
  
  - Detached from SolvPred.
- - Input databased updated.
+ - Input database updated.
  - Input spreadsheet updated - no longer require manual check of No_db column.
 
 ## TD:
