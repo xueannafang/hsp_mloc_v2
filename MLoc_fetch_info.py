@@ -33,7 +33,8 @@ def fetch_hsp(db, usr_data):
     if all_cas_found == 0:
 
         print('Please double check the CAS No. in all your input entries and try again.')
-        exit()
+        # exit()
+        raise ValueError("CAS No. Not Found.")
 
     return usr_data_with_hsp
         
