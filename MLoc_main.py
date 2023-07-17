@@ -1,20 +1,18 @@
-import matplotlib.pyplot as plt
 import MLoc_io
 import MLoc_fetch_info
 import MLoc_calc
-import pandas as pd
 from datetime import datetime
 from datetime import date
 
 #please edit if necessary
 
-db_name, usr_input_data = 'db.csv', 'input_mloc_data.csv'
+db_name, usr_input_data = 'db.csv', 'input_mloc_data_UK101130.csv'
 
 alpha = 0.01
-n_max = 10000
-tol = 0.00001
+n_max = 1000000
+tol = 0.005
 
-op_name_prefix = 'test'
+op_name_prefix = 'test_UK10'
 
 
 
