@@ -152,3 +152,5 @@ cython_debug/
 #.idea/
 
 mloc_2_test.ipynb
+
+/test_results
