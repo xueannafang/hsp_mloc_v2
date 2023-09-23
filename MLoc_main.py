@@ -6,13 +6,16 @@ from datetime import date
 
 #please edit if necessary
 
-db_name, usr_input_data = 'db.csv', 'input_mloc_data_UK101130.csv'
+# name of database and input data
+db_name, usr_input_data = 'db.csv', 'input_mloc_data.csv'
 
+# hyperparameters for gradient descent
 alpha = 0.01
 n_max = 1000000
 tol = 0.005
 
-op_name_prefix = 'test_UK10'
+# prefix of output files
+op_name_prefix = 'test'
 
 
 

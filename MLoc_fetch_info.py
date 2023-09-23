@@ -63,6 +63,10 @@ def fetch_calc_vec(usr_data_with_hsp):
         all_calc_vec_dict['all_hs'].append(crt_h)
         all_calc_vec_dict['all_indicators'].append(crt_indicator)
         all_calc_vec_dict['all_idxs'].append(crt_idx)
+
+        if not isinstance(crt_indicator, float):
+
+            raise ValueError("Indicator is not a number.")
     
     # print(all_calc_vec_dict)
 
