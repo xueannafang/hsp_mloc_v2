@@ -18,7 +18,6 @@ tol = 0.005
 op_name_prefix = 'test'
 
 
-
 # Main program below
 db, usr_input = MLoc_io.read_input_csv(db_name, usr_input_data)
 
