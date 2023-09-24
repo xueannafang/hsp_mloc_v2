@@ -4,7 +4,7 @@ import MLoc_calc
 from datetime import datetime
 from datetime import date
 
-#please edit if necessary
+#Setup block - please edit if necessary
 
 # name of database and input data
 db_name, usr_input_data = 'db.csv', 'input_mloc_data.csv'
