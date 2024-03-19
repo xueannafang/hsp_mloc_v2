@@ -103,5 +103,9 @@ A scheme of 3D Hansen space with all the tested data will also be saved.
 - [Example png figure](https://github.com/xueannafang/hsp_mloc_v2/blob/main/test_20230708170620.png)
 
 
+## Cite this work
+
+X. Fang, E. Gale, N. Fey, C. F.J. Faul, MLoc - a solvent selection framework for data-deficient functional materials (v2.0), 2023, https://github.com/xueannafang/hsp_mloc_v2.
+
 -------------------------------
 This project is licensed under GPL-3.0
