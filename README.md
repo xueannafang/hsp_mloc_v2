@@ -105,7 +105,7 @@ A scheme of 3D Hansen space with all the tested data will also be saved.
 
 ## Cite this work
 
-X. Fang, U. Karatayeva, J. D. Worth, M. G. Girgin, S. A. A. Siyabi, D. Mukhanov, E. M. Gale, N. Fey, C. F. J. Faul, A solvent selection framework for porous organic polymers, ChemRxiv, doi: [10.26434/chemrxiv-2025-l90hb](10.26434/chemrxiv-2025-l90hb), 2025.
+X. Fang, U. Karatayeva, J. D. Worth, M. G. Girgin, S. A. A. Siyabi, D. Mukhanov, E. M. Gale, N. Fey, C. F. J. Faul, A solvent selection framework for porous organic polymers, ChemRxiv, doi: [10.26434/chemrxiv-2025-l90hb]([10.26434/chemrxiv-2025-l90hb](https://chemrxiv.org/engage/chemrxiv/article-details/67c31ca26dde43c9080375c3), 2025.
 
 -------------------------------
 This project is licensed under GPL-3.0
